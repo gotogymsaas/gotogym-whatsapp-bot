@@ -1,24 +1,6 @@
 {
   "name": "gotogym-whatsapp-bot",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2",
-    "openai": "^4.87.3",
-    "twilio": "^5.5.0"
-  }
-}
-{
-  "name": "gotogym-whatsapp-bot",
-  "version": "1.0.0",
   "type": "module",
   "main": "index.js",
   "scripts": {
@@ -35,6 +17,4 @@
     "twilio": "^5.5.0"
   }
 }
-
-
 
