@@ -2,8 +2,9 @@
   "name": "gotogym-whatsapp-bot",
   "version": "1.0.0",
   "type": "module",
-  "main": "index.js",
+  "main": "server.js", 
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,10 +12,12 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "axios": "^1.8.4",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
+    "node-schedule": "^2.1.1",
     "openai": "^4.87.3",
-    "twilio": "^5.5.0"
+    "twilio": "^5.5.1"
   }
 }
 
